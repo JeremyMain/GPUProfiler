@@ -1,2 +1,2 @@
-# Latest release GPUProfiler 1.05a (02-28-2018)
+# Latest release GPUProfiler 1.06a (05-28-2018)
 https://github.com/JeremyMain/GPUProfiler/releases
