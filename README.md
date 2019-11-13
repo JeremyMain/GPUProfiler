@@ -1,6 +1,6 @@
 # GPUProfiler
 
-
+[![Github All Releases](https://img.shields.io/github/downloads/JeremyMain/GPUProfiler/total.svg)](https://github.com/JeremyMain/GPUProfiler/releases)
 
 ## Latest Release
 The latest release of GPUProfiler is v1.07a on 05-07-2019
