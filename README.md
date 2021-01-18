@@ -13,6 +13,10 @@ After several years of attempting to extract configuration information, utilizat
 
 GPUProfiler is not a source code profiler but a resource and utilization profile that can provide a snapshot of a system and select resource utilization metrics over a period of time.
 
+
+<img src="./.blob/Overview.png">
+
+
 I included capturing many of the important system details to correlate utilization information within a sea of desktop, workstation and server hardware.
 These include: CPU type, number of logical cores, frequency, system memory, OS, GPU and driver version.
 
@@ -29,11 +33,9 @@ The latest release of GPUProfiler is v1.07a2 on 01-15-2021
 https://github.com/JeremyMain/GPUProfiler/releases/tag/v1.07a2
 
 ## Main Features
-
-
-<img src="./.blob/Overview.png">
-
 ### System information.
+
+<img src="./.blob/SystemInformation.png">
 
 In this example we have a virtual machine that is running on VMWare vSphere. For physical machines it will collect the manufacturer, Model and BIOS information.
 The host name of the machine and the OS and build number.
@@ -43,11 +45,13 @@ If detected, the NVIDIA GPU model or vGPU type, driver mode (WDDM or TCC), GPU m
 Finally the GPU driver version and hypervisor agent version.
 
 ### Collection Options
+<img src="./.blob/CollectionOptions.png">
 Collection options include the sample interval and duration when used with the “start” button. The monitor button allows for continuous monitoring of a 5 minute interval.
 While monitoring, you can stop the monitor mode and save that in GPD format as well. 
 New will delete the current data an allow you to start collecting again. The save button will allow the current data to be saved in GPD format and the export button will export to a CSV file.
 
 ### Display Options
+<img src="./.blob/DisplayOptions.png">
 The display options will show or hide selected metrics. 
 Each metric has it’s own hotkey bindings, the first press will bold the line and the second keypress will hide the metric.
 C for CPU, R for RAM, G for GPU, F for Framebuffer, E for Video Encode, D for Video Decode and P for Protocol metrics.
@@ -57,27 +61,33 @@ If a metric does not have data in a loaded file the checkbox will be disabled.
 The current release version does not have Network support enabled and is always disabled.
 
 ### Process Utilization
+<img src="./.blob/ProcessUtilization.png">
 While collecting data, the current process that are using the GPU are displayed in the process utilization list. Process that do not have user query permission will not be displayed but will be part of the TOTAL utilization.
 The elements shown are GPU, GPU Memory  Controller, encoder and decoder utilization.
 The process utilization information is not serialized in the GPD file.
 
 ### Utilization Graphs
+<img src="./.blob/UtilizationGraph.png">
 Within the utilization graphs, you may zoom in or out using the left mouse button or scroll using the right mouse button, scroll wheel or page up/down keys.
 Control + scroll wheel will zoom into or out of the center of the graph.
 
 ### Protocol Graphs
+<img src="./.blob/ProtocolGraph.png">
 The protocol graph will be show in physical or virtual environments where a remote session is detected. The current protocol (HDX, PCoIP or Blast) remoted FPS as well as the protocol latency.
 The protocol latency is a function of the network latency and the latency encode/decoding the protocol stream. When the protocol latency is highly variant, consider investigating the endpoint configuration to confirm it’s ability to support the protocol at the desired number of displays and resolutions.
 
 ### Value Inspector
+<img src="./.blob/ValueInspector.png">
 Within the utilization graphs, the hotkey V can be used to show or hide the Value inspector, or U for the Utilization inspector.
 This will display the collected utilization values at a certain period of time.
 
 ### Utilization Histogram
+<img src="./.blob/UtilizationHistogram.png">
 For the visible range, and analysis button will show a resource utilization histogram and average value over the range.
 In future version, the method to display this information will need to be optimized to support multi-GPU configurations and new metrics.
 
 ### Tool Window Mode
+<img src="./.blob/ToolView.png">
 Double clicking the graph area will change the display mode to be a tool view, and via the options menu it can be selected to run as always on top if desired.
 Double clicking the graph area again will revert back to the standard display mode.
 
