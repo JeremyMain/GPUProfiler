@@ -124,6 +124,7 @@ A console based version of GPUProfiler for Linux or Linux kernel derived hypervi
 
 
 ## Development
+(Last updated June 2021)
 Here is a brief look at some of the new additions in the new feature branch v1.07b
 
 ### License State / Type
@@ -133,8 +134,11 @@ Collection of the current license state and license edition for vGPU customers. 
 The number of connected displays and current resolutions. This will be updated each time a display is added or resolution is changed and will show the current display and resolutions when used with the value inspector.
 
 ### Protocol Metrics
-The protocol network Tx, RX and loss information will be available in a separate graph below the protocol metrics.
+The protocol network Tx, RX and loss information (if available) will be available in a separate graph below the protocol metrics.
+Current supported protocols are Citrix HDX Thinwire, Teradici PCoIP, VMware Blast.
 
+### Network Metrics
+The overall network utilization (Tx/Rx) will be collected to support protocols that do not expose WMI metrics as well as to monitor the general network requirements. This is supported for both bare-metal as well as virtual environments
 
 
 ## Bug Reports
