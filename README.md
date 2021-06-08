@@ -133,6 +133,11 @@ Collection of the current license state and license edition for vGPU customers. 
 ### Displays and Resolutions
 The number of connected displays and current resolutions. This will be updated each time a display is added or resolution is changed and will show the current display and resolutions when used with the value inspector.
 
+### Display Capture (NVFBC/NVIFR) and Encoder (NVENC) Metrics
+For protocols that use the NVIDIA capture SDKs NVFBC or NVIFR, the capture FPS and latency are collected.
+The hardware video encoder SDK NVENC metrics for encoder FPS and encoder latency are also collected.
+This was added for analyzing CloudXR encoder requirements and impact of multiple vGPU VMs on a single GPU.
+
 ### Protocol Metrics
 The protocol network Tx, RX and loss information (if available) will be available in a separate graph below the protocol metrics.
 Current supported protocols are Citrix HDX Thinwire, Teradici PCoIP, VMware Blast.
