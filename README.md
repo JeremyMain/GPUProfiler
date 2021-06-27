@@ -1,5 +1,15 @@
 # GPUProfiler [![Github All Releases](https://img.shields.io/github/downloads/JeremyMain/GPUProfiler/total.svg)](https://github.com/JeremyMain/GPUProfiler/releases)
 
+## Latest Release
+The latest release of GPUProfiler is v1.07a3 on 06-27-2021
+
+https://github.com/JeremyMain/GPUProfiler/releases/tag/v1.07a3
+
+## All Releases
+https://github.com/JeremyMain/GPUProfiler/releases
+
+
+
 ### DISCLAIMER: 
 I am an NVIDIA employee however GPUProfiler has been developed and released independently of my employment at NVIDIA.
 GPUProfiler is not an NVIDIA product, nor is it supported or endorsed by NVIDIA. It is provided as a binary-only Freeware closed source project.
@@ -26,11 +36,6 @@ I initially attempted to stay away from using WMI based counters due to addition
 
 The tool was to be small, easy to run, collect, save and ultimately share with our partners. It has in my opinion become invaluable in sizing for vGPU environments and for troubleshooting both physical and virtual environments.
 
-
-## Latest Release
-The latest release of GPUProfiler is v1.07a2 on 01-15-2021
-
-https://github.com/JeremyMain/GPUProfiler/releases/tag/v1.07a2
 
 ## Main Features
 ### System information.
