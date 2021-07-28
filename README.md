@@ -5,6 +5,8 @@ The latest release of GPUProfiler is v1.07a3 on 06-27-2021
 
 https://github.com/JeremyMain/GPUProfiler/releases/tag/v1.07a3
 
+The first release of GPUProfiler for Linux v1.07b can be found on the [GPUProfiler for Linux](https://github.com/JeremyMain/GPUProfiler-for-Linux) project page
+
 ## All Releases
 https://github.com/JeremyMain/GPUProfiler/releases
 
